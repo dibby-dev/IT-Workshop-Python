@@ -15,8 +15,8 @@ def isAnagram(word_1, word_2):
     word_1 = charFreq(word_1)
     word_2 = charFreq(word_2)
     if word_1 == word_2:
-        return True
-    return False
+        return "Anagrams"
+    return "not Anagrams"
 
 word_1, word_2 = input("Enter two words (<w1><space><w2>): ").split()
-print(f"Anagrams: {isAnagram(word_1, word_2)}")
+print(f"They are {isAnagram(word_1, word_2)}")
