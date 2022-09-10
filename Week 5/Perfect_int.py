@@ -1,5 +1,4 @@
 # Question - 4
-from re import T
 from ProperDivisors import generateProperDivisors
 
 def isProperDivisor(n):
