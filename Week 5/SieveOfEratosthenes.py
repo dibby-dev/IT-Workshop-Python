@@ -14,8 +14,10 @@ def getPrimeNumbers(n):
         if i!=0 and isPrime(i):
             primeNums.append(i)
             # Removing the multiples of i from nums
-            for j in range(i-1, n-1):
-                if nums[j]%i==0: nums[j]=0
+            j = i-2
+            while j<n-1:
+                nums[j] = 0
+                j += i
     return primeNums
 
 if __name__ == "__main__":
