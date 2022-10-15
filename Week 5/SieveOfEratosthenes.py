@@ -21,5 +21,6 @@ def getPrimeNumbers(n):
     return primeNums
 
 if __name__ == "__main__":
+    print("This Program will display all prime numbers between 2 and the limit (say 100000) entered by you.")
     n = int(input("Enter the limit: "))
     print( str(getPrimeNumbers(n)) )
