@@ -10,6 +10,7 @@ def minimize(num_1, num_2):
             factor -= 1
     return int(num_1), int(num_2)
 
-num_1, num_2 = input("Enter two positive integers: ").split()
-num_1, num_2 = minimize(int(num_1), int(num_2))
-print(f"{num_1} {num_2}")
+if __name__ == "__main__":
+    num_1, num_2 = input("Enter two positive integers: ").split()
+    num_1, num_2 = minimize(int(num_1), int(num_2))
+    print(f"{num_1} {num_2}")

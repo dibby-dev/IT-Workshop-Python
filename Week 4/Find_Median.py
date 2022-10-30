@@ -8,5 +8,6 @@ def findMedian(a, b, c):
     else:
         return c
 
-a, b, c = input("Enter three numbers in a line: ").split()
-print(f"Median: {findMedian(int(a), int(b), int(c))}")
+if __name__ == "__main__":
+    a, b, c = input("Enter three numbers in a line: ").split()
+    print(f"Median: {findMedian(int(a), int(b), int(c))}")

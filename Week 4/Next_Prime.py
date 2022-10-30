@@ -15,5 +15,6 @@ def isPrime(num):
             return False
     return True
 
-n = int(input("Enter a positive number: "))
-print(f"Next Prime Number: {nextPrime(n)}")
+if __name__ == "__main__":
+    n = int(input("Enter a positive number: "))
+    print(f"Next Prime Number: {nextPrime(n)}")

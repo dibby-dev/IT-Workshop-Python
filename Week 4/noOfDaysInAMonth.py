@@ -18,5 +18,6 @@ def noOfDays(mm, yyyy):
         daysOfMonths[1] = 29
     return daysOfMonths[mm-1]
 
-mm, yyyy = input("Enter the month and year: ").split()
-print(f"{noOfDays(int(mm), int(yyyy))} Days")
+if __name__ == "__main__":
+    mm, yyyy = input("Enter the month and year: ").split()
+    print(f"{noOfDays(int(mm), int(yyyy))} Days")
