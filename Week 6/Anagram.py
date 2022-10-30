@@ -11,7 +11,7 @@ def charFreq(word):
 
 def isAnagram(word_1, word_2):
     if len(word_1) != len(word_2):
-        return False
+        return "not Anagrams"
     word_1 = charFreq(word_1)
     word_2 = charFreq(word_2)
     if word_1 == word_2:

@@ -1,5 +1,4 @@
 # Question - 2
-from hashlib import new
 from random import randint
 
 def diceRoll() -> dict:
